@@ -1,3 +1,5 @@
+# runtime is O(2^N)
+
 def power_set(set):
   power_set_size = 2**len(set)
   result = []
