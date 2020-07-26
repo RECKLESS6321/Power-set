@@ -11,3 +11,9 @@ def power_set(set):
         sub_set.append(set[binary_digit])
     result.append(sub_set)
   return result
+
+universities = ['MIT', 'UCLA', 'Stanford', 'NYU']
+power_set_of_universities = power_set(universities)
+
+for set in power_set_of_universities:
+  print(set)
